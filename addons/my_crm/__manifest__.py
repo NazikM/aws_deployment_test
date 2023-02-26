@@ -1,17 +1,17 @@
 {
-    'name': 'Hospital managment',
+    'name': 'CRM Customizations',
     'version': '1.0',
-    'summary': 'Hospital managment software',
+    'summary': 'CRM managment software',
     'sequence': 10,
-    'description': """Hospital managment software""",
+    'description': """CRM managment software""",
     'category': 'Productivity',
     'website': '',
     'depends': [
-        'sale'
+        'crm'
     ],
     'data': [
         'security/ir.model.access.csv',
-        'views/patient.xml'
+        'views/crm_lead_form.xml',
     ],
     'demo': [],
     'qweb': [],

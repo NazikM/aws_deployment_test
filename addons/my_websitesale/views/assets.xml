@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="assets_backend" name="custom_module assets" inherit_id="web.basic_layout">
+    <xpath expr="." position="inside">
+      <style>
+        * {
+          font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+        h2 {
+          margin-bottom: 20px;
+        }
+
+        p {
+          margin-bottom: 10px;
+        }
+
+        .btn-primary {
+          margin-top: 10px;
+        }
+
+        .opt_price {
+          color: green;
+          margin-left: 10px;
+        }
+      </style>
+<!--      <link rel="stylesheet" type="text/css" href="/my_websitesale/static/src/css/style.css"/>-->
+    </xpath>
+  </template>
+</odoo>
